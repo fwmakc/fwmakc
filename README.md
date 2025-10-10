@@ -1,9 +1,15 @@
-<h1 align="center">Привет👋 Меня зовут Макс!</h1>
+<h1 align="center">
+  Привет👋 Меня зовут Макс!
+  <br>
+  <div align="center">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=fwmakc&"  />
+  </div>
+</h1>
 
 ###
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=fwmakc&"  />
+  <img height="400" width="800" src="https://raw.githubusercontent.com/fwmakc/fwmakc/refs/heads/main/placeholder.png"  />
 </div>
 
 ###
