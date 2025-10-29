@@ -34,13 +34,13 @@
 Мой стек
 </p>
 
-[![Main stack](https://skillicons.dev/icons?i=js,ts,nestjs,nodejs,nginx,postgres)](https://skillicons.dev)
+[![Main stack](https://skillicons.dev/icons?i=ts,nestjs,nodejs,nginx,postgres)](https://skillicons.dev)
 
 <p align="left">
 Мои скилы
 </p>
 
-[![My skills](https://skillicons.dev/icons?i=apollo,arduino,arch,bash,bootstrap,bun,c,cmake,css,docker,electron,fastapi,firebase,figma,git,github,graphql,html,jest,jquery,less,linux,md,materialui,mysql,npm,php,pinia,prisma,py,pytorch,regex,sass,tensorflow,ubuntu,vite,vitest,vscode,vue,webpack,yarn)](https://skillicons.dev)
+[![My skills](https://skillicons.dev/icons?i=apollo,arduino,arch,bash,bootstrap,bun,c,cmake,css,docker,electron,fastapi,firebase,figma,git,github,graphql,html,jest,js,jquery,less,linux,md,materialui,mysql,npm,php,pinia,prisma,py,pytorch,regex,sass,tensorflow,ubuntu,vite,vitest,vscode,vue,webpack,yarn)](https://skillicons.dev)
 
 ###
 
