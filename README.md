@@ -1,5 +1,5 @@
 <h1 align="center">
-  Привет👋 Меня зовут Макс!
+  Hey 👋 I'm Max!
   <br>
   <div align="center">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=fwmakc&"  />
@@ -41,37 +41,29 @@
 
 ###
 
-<h3 align="left">👩‍💻 Обо мне</h3>
+<h3 align="left">🧑‍💻 About me</h3>
 
 ###
 
-<p align="left">Моя цель — воплощать идеи и решать сложные задачи, используя магию современных технологий в сочетании с лучшими практиками разработки.</p>
+<p align="left">My mission is to bring ideas to life and solve tough problems, using magic of modern tech combined with best practices.</p>
 
-<p align="left">Я прошел путь, где каждая строчка кода как волшебное заклинание — от PHP, который научил меня основам, до TypeScript, который открыл дверь в мир строгой типизации.</p>
+<p align="left">My tpro track is continious learning — from PHP, which taught me fundamentals, to TypeScript, which opened up world of strict typing to me.</p>
 
-<p align="left">Я увлечен созданием полноценных решений от концепции до реализации. Безупречные интерфейсы и надежная масштабируемая серверная архитектура.</p>
-
-###
-
-<h3 align="left">🛠 Технологии:</h3>
+<p align="left">I'm passionate about building full-scale solutions from concept to launch. Flawless user interfaces and robust, scalable backend architecture.</p>
 
 ###
 
-<p align="left">
-Мой стек
-</p>
+<h3 align="left">🎯 Stack:</h3>
 
 [![Main stack](https://skillicons.dev/icons?i=ts,nestjs,nodejs,nginx,postgres)](https://skillicons.dev)
 
-<p align="left">
-Мои скилы
-</p>
+<h3 align="left">⚒️ Skills:</h3>
 
 [![My skills](https://skillicons.dev/icons?i=apollo,arduino,arch,bash,bootstrap,bun,c,cmake,css,docker,electron,fastapi,firebase,figma,git,github,graphql,html,jest,js,jquery,less,linux,md,materialui,mysql,npm,php,pinia,prisma,py,pytorch,regex,sass,tensorflow,ubuntu,vite,vitest,vscode,vue,webpack,yarn)](https://skillicons.dev)
 
 ###
 
-<h3 align="left">🔥 Моя статистика:</h3>
+<h3 align="left">🔥 Statistics:</h3>
 
 ###
 
