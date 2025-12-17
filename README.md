@@ -40,7 +40,7 @@
 
 ###
 
-<h3 align="left">🔥 Statistics:</h3>
+<h3 align="left">📊 Statistics:</h3>
 
 ###
 
