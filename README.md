@@ -28,9 +28,13 @@
 
 <h3 align="left">🎯 Stack:</h3>
 
+###
+
 [![Main stack](https://skillicons.dev/icons?i=ts,nestjs,nodejs,nginx,postgres)](https://skillicons.dev)
 
 <h3 align="left">⚒️ Skills:</h3>
+
+###
 
 [![My skills](https://skillicons.dev/icons?i=apollo,arduino,arch,bash,bootstrap,bun,c,cmake,css,docker,electron,fastapi,firebase,figma,git,github,graphql,html,jest,js,jquery,less,linux,md,materialui,mysql,npm,php,pinia,prisma,py,pytorch,regex,sass,tensorflow,ubuntu,vite,vitest,vscode,vue,webpack,yarn)](https://skillicons.dev)
 
