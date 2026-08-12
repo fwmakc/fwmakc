@@ -1,89 +1,124 @@
-<h1 align="center">
-  Hey 👋 I'm Max!
-  <br>
-  <div align="center">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=fwmakc&"  />
-  </div>
-</h1>
+# Nikonov Maxim
 
-###
+**Compiler Engineer | Systems Architect | Research Engineer**
 
-<div align="center">
-  <img height="400" width="800" src="https://raw.githubusercontent.com/fwmakc/fwmakc/refs/heads/main/placeholder_8bit.png"  />
-</div>
+Creator of programming languages, runtimes, and production frameworks. Specializing in compiler design, systems programming, and cross-platform architecture.
 
-###
+## 🔧 Flagship Projects
 
-<h3 align="left">🧑‍💻 About me</h3>
+### [TSClang](https://github.com/tsclang/tsclang) — TypeScript to C Compiler
+TypeScript-like language with Rust-inspired ownership semantics compiling to clean C.
 
-###
+**Key features:**
+- **Borrow checker**: `Ref<T>`, `Mut<T>`, `Arc<T>` for memory safety
+- **Async/await → C state machine** (no runtime, no heap for embedded)
+- **10+ target platforms**: desktop, AVR, ARM, NES, PS1, PS2, DOS, ZX Spectrum, WASM
+- **1764+ tests**, pnpm monorepo, custom package manager, LSP support
+- **Embedded optimizations**: cooperative scheduler, `Volatile<T>`, `@embedded.pool`
 
-<p align="left">My mission is to bring ideas to life and solve tough problems, using magic of modern tech combined with best practices.</p>
+### [mclang](https://github.com/tsclang/mclang) — Mathematical Formula Compiler
+Domain-specific language for mathematical formulas compiling to pure C with zero runtime.
 
-<p align="left">My tpro track is continious learning — from PHP, which taught me fundamentals, to TypeScript, which opened up world of strict typing to me.</p>
+**Key features:**
+- **LaTeX-like syntax**: `\arcsin`, `\frac`, implicit multiplication (`2πr`)
+- **`where` blocks** for intermediate calculations
+- **5 compilation targets**: C, shared library, WASM, Node.js addon, Rust FFI
+- **Zero dependencies** — pure C output, works on Arduino, STM32, WASM, browsers
+- **Real-world examples**: orbital mechanics, Kalman filters, DSP, geodesy, Black-Scholes
 
-<p align="left">I'm passionate about building full-scale solutions from concept to launch. Flawless user interfaces and robust, scalable backend architecture.</p>
+### [workspace](https://github.com/fwmakc/workspace) — Cross-Platform Overlay Runtime
+Host-agnostic runtime providing unified workspace across Windows, macOS, Linux, Android, iOS.
 
-###
+**Architecture:**
+- **Rust system layer**: wgpu (WebGPU), winit (windowing), CPAL (audio), storage with BLAKE3
+- **Bun/TypeScript micro-kernel**: IPC, SQLite, CRDT sync, capability security
+- **V8 Isolates**: sandboxed apps with `@workspace/*` API
+- **Local AI**: ONNX/Ollama for intent-based UI, voice control, scheduling
+- **P2P mesh**: offline-first sync without central cloud
+- **37 implementation phases**, Phase 0 (playable demo) complete
 
-<h3 align="left">🎯 Stack:</h3>
+### [api-server-toolkit](https://github.com/fwmakc/api-server-toolkit) — NestJS Microservices Framework
+Production-ready framework for REST APIs with comprehensive access control.
 
-###
+**Key features:**
+- **6-level access control**: public/account/tenant/owner/superuser/closed
+- **Deny-by-default security**: 4 layers (operations, relations, nested filtering, fields)
+- **Multi-tenancy** with flexible tenant scoping
+- **125+ unit tests**, TypeORM optimizations (N+1 → 2 queries)
+- Used in production microservices architecture (7+ services)
 
-[![Main stack](https://skillicons.dev/icons?i=ts,nestjs,nodejs,nginx,postgres)](https://skillicons.dev)
+## 🎯 Expertise
 
-<h3 align="left">⚒️ Skills:</h3>
+**Compiler Engineering:**
+- Language design (type systems, ownership semantics, DSLs)
+- Code generation (C, Assembly for multiple architectures)
+- Lexer/parser implementation
+- Async/await → state machine compilation
+- Cross-compilation toolchains (AVR, ARM, MIPS, Z80, x86)
+- Mathematical formula compilation (LaTeX → C)
 
-###
+**Systems Programming:**
+- Embedded development (AVR, ARM, ESP32, retro consoles)
+- Memory management (borrow checking, no-heap environments)
+- Runtime architecture (micro-kernels, isolates, capability security)
+- Graphics programming (WebGPU, wgpu, WGSL shaders)
+- Audio subsystems (CPAL, ring buffers, lock-free SPSC queues)
+- Storage with atomic writes and BLAKE3 hashing
+- P2P networking with CRDTs
 
-[![My skills](https://skillicons.dev/icons?i=apollo,arduino,arch,bash,bootstrap,bun,c,cmake,css,docker,electron,fastapi,firebase,figma,git,github,graphql,html,jest,js,jquery,less,linux,md,materialui,mysql,npm,php,pinia,prisma,py,pytorch,regex,sass,tensorflow,ubuntu,vite,vitest,vscode,vue,webpack,yarn)](https://skillicons.dev)
+**Backend Architecture:**
+- Microservices design patterns
+- REST API design with security best practices
+- Multi-tenancy implementations
+- Row-level security, RBAC
+- Database optimization (PostgreSQL, TypeORM)
 
-###
+## 📊 Tech Stack
 
-<h3 align="left">📊 Statistics:</h3>
+**Languages:** TypeScript (expert), Rust (advanced), C (advanced), Python (advanced)
 
-###
+**Compilers:** GCC, Clang, avr-gcc, arm-none-eabi-gcc, cc65, m68k-elf-gcc, mipsel-elf-gcc, emscripten
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=fwmakc&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
+**Embedded:** AVR (ATmega), ARM Cortex-M, ESP32, NES (6502), ZX Spectrum (Z80), PS1/PS2 (MIPS)
 
-###
+**Graphics:** WebGPU, wgpu, WGSL, Vulkan, Metal
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fwmakc&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fwmakc&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
+**Backend:** NestJS, Node.js, Bun, PostgreSQL, TypeORM, Docker, PM2, Nginx
 
-###
+**Systems:** Rust (winit, wgpu, CPAL, notify, zeroize), SQLite, CRDTs, ONNX, Ollama
 
-```
-              +                             .....                         .              *                ......          '
-      '             .               *                          +                 .                   .........        .-.  
-         ':.                .                          *                                            .      .......     ) ) 
-           '::._                                                      .                +       .....                  '-´  
-             '._)      *          *              .                             *                                  '        
-     .                                     .               .....                            '                          +   
-          .                                             ......::.;:..                             *        .....           
-      *              +                          +    .....::::;:;;;;;::...     '      .                                    
-                              ......              .....::::;+;+;;;;++:::+x.                +           '                ...
-           .              .......             .....:::::;;++x+:;+;..:;;:++XXXxxx+.                             *           
-                                          .:;;;::;+;;x;;++Xx+:;;x;;;+++++XXX$$XxXX;Xx;++xx;         +                      
-      '         .:;:.                 ..:::;;;;;;;;;+;;xx+XX+:;+X+;;+Xxx++xXXxx+;X+$XX+::$X:.  '                '    ..    
-              .;;xxxxXx:....::.. ...:;+;;;;;;;+:;;+:;;+X;;;;:;;;+xXX+xX;;:;xX;+xX$Xx;:;;;x$$$$+..       *                  
-       +   .:;++++x;x$X+XXx+;:;xXXxXXx;;;;++++;++;;;;;;;;;xx;+;+XXxX$$X;:;;xxXx$$$;::+XXX+xxxX$$$$X:          .            
-         .:::x::+$XXx$$X+x;;;;++XXXXXx;;;;;;;::;+$$$x$$X$$+:;xxxXXX+++;:;xxXX$X$$$:;+++++Xx;;::x$$$$$X+.  ..             ' 
-      ..:;;;+x++xXXXXX+x++;;;+++xXXXXx+;;:;;;;xXXX$$$$$X+;:;+xxx+;;;;:;;+X$$X$$$x;;x;++++Xx+;;x+XX$$$$$$XXXXxxX+;:..       
-    .+++XX$$Xxx+x+x+;;xX+;;:;;;;;;;;;;;;;;;;;xxxXX$X++++++;;;;;;;;;+X;;xXX$$$$$;;+;xXx++x;+xXx+xxX$$$$$$$$$XX++X$$$$x+;....
-    :XXxx++xX;+;;+;;;;;;;;;;;;;;;;;;;+x;;++xXXxX+;+;xx;+xxXxx+;;xX$xxx+;++++x$;;;+++x;+x+;+x++;+;XxX$X$$$$XxXXxxX$$$X+:;x;:
-    ++;;+++;;;++;;;;;;++;;:;;;;;;;;;;;;;;;+x+;;;;+++;;;;;++;;;;xXXXX$$$$$$X+;+xx+;;;+++xx+xxxxxxXXXXxXXX$$$X$X$$XXX$Xx+x+;;
-    ;+;;++;;;;;;;;+;;;;;;;;;;;+;;;;::;;;;+;;;+++;;;;;++;+;+++xx+;;;+xx++;;;xxxx+;;x+++xxxxxxXxXXXXxXxxXxxX$$$$$X+::x$Xx+x+;
-    ++;;;;;;;;;;++x+;;xX;;:;;;;;;+:::;;;;+;;+xxXX+:::;;:::+;;;;;;;;;;;;;;++++x+;;;;;;;;xXXXXX$$XXxxxxXxxx+XX$$$x+;::;;+$X+;
-    
-    ..~~.~~~.~..~~~........~..  ....~~    ~ ~~~~~~~~~~~~~~.~... ....    . . ......~........~.~~~~~.~~~~~~.~..~~.~~~~~~~~ ~~
-     ..~~~~ ~ ~..~~~~..~~.~~    ...... ~~..........~..... .~~.~~.. .......      . ........~~~.........~~..~~.....~...~~~~..
-    ...~.~~..~~~~.............    .......~~~~~......       . . ~........~~...~~~~.~~~ ~......~~.~~~~~.~..~.~....~~~~~.~~~~~
-    ~~           ~    ~   ~~~~~~~......                 .~.~~.~~ ..~......~......~.~.~~.~~~~.~~    ~ ~~~~~      ~~~~~~~~~. 
-    . ......~ ~~~..~..~~...           ~~~~~     ..... ...~~~ ~~.    .......~~.~~ ~~  ~~.~~.....~~~~~~..~.~~~~~~~~~~~.      
-      ~~~~.~~~                 ~........~.    .... ..       ~~~....~~..   .~..~...      .~~ ~~~~~   ~  ~~..~~~~.~~         
-```
+**Tools:** Git, pnpm, Jest, Vitest, LSP, CMake
+
+## 📚 Project Philosophy
+
+I build tools that transform high-level abstractions into efficient, safe low-level code:
+
+- **TSClang**: TypeScript ergonomics → C performance with memory safety
+- **mclang**: Mathematical notationation → optimized C functions
+- **workspace**: Unified experience → platform-specific optimizations
+- **api-server-toolkit**: Declarative access control → secure REST APIs
+
+Each project follows the same principles:
+- Zero or minimal runtime overhead
+- Strong safety guarantees (borrow checking, capability security)
+- Cross-platform portability
+- Production-ready quality (comprehensive tests, documentation)
+
+## 💼 Open to Work
+
+Seeking **Compiler Engineer**, **Systems Architect**, or **Research Engineer** roles:
+- Compiler/language development (language design, code generation, DSLs)
+- Systems programming (embedded, runtime, toolchains, graphics)
+- Runtime architecture (micro-kernels, isolates, cross-platform)
+- Backend architecture (microservices, security, multi-tenancy)
+
+**Remote-first** | Available for international opportunities
+
+## 📫 Contact
+
+- **Email:** fwmakc@google.com, fwmakc@mail.ru
+- **Telegram:** [@fwmakc](https://t.me/fwmakc)
+
+---
+
+*"I build compilers and runtimes that turn high-level abstractions into efficient, safe low-level code."*
